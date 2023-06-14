@@ -1,3 +1,4 @@
-import Button, { ButtonProps as TButtonProps } from './Button'
-export type ButtonProps = TButtonProps
+import Button, { classesFn } from './Button'
+export type { ButtonProps } from './Button'
+export const btnClassesFn = classesFn
 export default Button
